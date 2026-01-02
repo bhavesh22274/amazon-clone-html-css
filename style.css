@@ -1,28 +1,28 @@
 *{
     margin: 0;
     font-family:Arial;
-    border: border-box; /*jitne bhi padding mele that should be counted in height and width*/
+    border: border-box; 
 } 
 .navbar{
     height: 60px;
     background-color: #0f1111;
     color: white;
-    align-items: center;/*around cross axis beech me ajjaega*/
+    align-items: center;
     display: flex;
-    justify-content: space-evenly;/*baad me sabko personaly width deke change karleneg*/
+    justify-content: space-evenly;
 }
 .nav-logo{
     height: 50px;
     width: 100px;
 }
 .logo{
-    background-image: url(amazon_logo.png); /*div tabhi dekhaedega jab tak usse specific height n dede*/
+    background-image: url(amazon_logo.png);
     background-size: cover;
     height: 50px;
     width: 100%;
 }
 .border{
-    border: 1.5px solid transparent; /*pahle intial state set kiya phir hover me end state banya*/
+    border: 1.5px solid transparent; 
 }
 .border:hover{
     border: 1.5px solid white;
@@ -30,7 +30,7 @@
 /*box 2*/
 .add1{
     color: #cccccc;
-    font-size: 0.85rem; /*with respect to browser change hona hight*/
+    font-size: 0.85rem;
     margin-left: 15px;
 }
 .add2{
@@ -44,27 +44,27 @@
 }
 /*box 3*/
 .nav-search{
-    display: flex; /*same line pe aagae ab left margin se distance dena asan padega*/
-    justify-content:space-evenly ;/*pahle evenly kardo phir change karte rahna,normally search ka width badhaoge vo donokon me chalejaega*/
-    background-color: pink;/* to check pannel hieght and width*/
+    display: flex; 
+    justify-content:space-evenly ;
+    background-color: pink;
     width: 620px;
     height: 40px;
     border-radius: 4px;
 }
 .nav-search:hover{
-    border:2px solid orange; /*border glow ke liye border set karna padta hai*/
+    border:2px solid orange; 
 }
 
 .search-select{
     background-color: #f3f3f3;
     width: 50px;
     text-align: center;
-    border-top-left-radius: 4px; /*amazon search ke along curvenes in border nhi chea*/
+    border-top-left-radius: 4px; 
     border-bottom-left-radius: 4px;
     border: none;
 }
 .search-input{
-    width:100%;/*leaving search and icon pura space lelega*/
+    width:100%;
     font-size: 1rem;
     border: none;
 }
@@ -89,7 +89,7 @@ span{
     font-weight: 700;
 }
 /*box5*/
-.nav-cart i { /*selector applicable for i cart only*/
+.nav-cart i { 
     font-size: 30px;
 }
 .nav-cart{
@@ -108,12 +108,11 @@ span{
 .panel-all{
     margin-left: 10px;
 }
-.panel-ops p{ /*p is must as paragraph tag pe lage ga*/
+.panel-ops p{
     display: inline;
     margin-left: 20px;
 }
 .panel-ops{
-    /* margin-right: 100px; or ek width dedo align and justify karne ke baad ke itna area occupy karega*/
     width: 80%;
     font-size: 0.85rem;
 }
@@ -123,7 +122,7 @@ span{
 }
 /*hero section*/
 .hero-section{
-    background-image: url("hero_image.jpg");/*bina hieght ya width ke image dekhae nhi dege*/
+    background-image: url("hero_image.jpg");
     background-size: cover;
     height: 380px;
     display: flex;
@@ -139,7 +138,6 @@ span{
     justify-content: center;
     align-items: center;
     font-size: 0.85rem;
-    /* position: relative; --->ek div ko dusre div me ghumane ka tarika
     top: 250px; */
     width: 80%;
     margin-bottom: 25px;
@@ -149,7 +147,7 @@ span{
 }
 /*box section*/
 .box-section{
-    display: flex;/*iska hight and width mat define karo kya ki margin or padding karke set karenge*/
+    display: flex;
     justify-content: space-evenly;
     background-color: #e2e7e6;
     flex-wrap: wrap;
